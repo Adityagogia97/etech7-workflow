@@ -1,0 +1,107 @@
+2023-02-24 12:46:41,886 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] Starting Etech7WorkflowApplication using Java 17.0.3 on GOGIA with PID 41072 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-workflow\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-workflow)
+2023-02-24 12:46:41,907 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-24 12:46:41,964 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 12:46:41,965 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 12:46:42,965 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2023-02-24 12:46:42,976 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-24 12:46:42,977 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-24 12:46:43,061 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-24 12:46:43,062 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1096 ms
+2023-02-24 12:46:43,392 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-24 12:46:43,498 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-24 12:46:43,577 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2023-02-24 12:46:43,602 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] Started Etech7WorkflowApplication in 2.649 seconds (JVM running for 3.51)
+2023-02-24 12:46:58,882 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 12:46:58,883 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-24 12:46:58,885 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 1 ms
+2023-02-24 12:48:26,985 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-4] requestId 880da44a-e996-4c08-8efd-de631b2d9016, ip 0:0:0:0:0:0:0:1, send a message : write a para on AI
+2023-02-24 12:48:26,988 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-4] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write a para on AI, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-24 12:48:33,342 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-4] response: <200,ChatResponse(id=cmpl-6nWTEsuZ5EedmRWiDgqmfyXoMoYRL, object=text_completion, created=+4594154-05-24, model=text-davinci-003, choices=[Choice(text=
+
+Artificial Intelligence (AI) is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways to improve our lives. AI is being used in healthcare to diagnose diseases, in finance to make better investment decisions, and in transportation to make driving safer. AI is also being used in robotics to create machines that can interact with humans in a more natural way. AI is changing the way we work, play, and live, and it is only going to become more important in the future., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=5, completionTokens=129, totalTokens=134)),[Date:"Fri, 24 Feb 2023 17:48:33 GMT", Content-Type:"application/json", Content-Length:"884", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"5859", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"a1a6418f037d34d3a2b578fe57971ddf"]>
+2023-02-24 12:48:33,344 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-4] Response--> requestId 880da44a-e996-4c08-8efd-de631b2d9016, ip 0:0:0:0:0:0:0:1, response : 
+
+Artificial Intelligence (AI) is a rapidly growing field of technology that is revolutionizing the way we interact with the world. AI is the ability of a computer or machine to think and learn, and it is being used in a variety of ways to improve our lives. AI is being used in healthcare to diagnose diseases, in finance to make better investment decisions, and in transportation to make driving safer. AI is also being used in robotics to create machines that can interact with humans in a more natural way. AI is changing the way we work, play, and live, and it is only going to become more important in the future.
+2023-02-24 12:49:02,654 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2023-02-24 12:55:44,546 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] Starting Etech7WorkflowApplication using Java 17.0.3 on GOGIA with PID 25992 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-workflow\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-workflow)
+2023-02-24 12:55:44,561 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-24 12:55:44,594 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 12:55:44,594 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 12:55:45,235 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2023-02-24 12:55:45,243 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-24 12:55:45,244 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-24 12:55:45,307 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-24 12:55:45,307 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 712 ms
+2023-02-24 12:55:45,511 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-24 12:55:45,602 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-24 12:55:45,641 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2023-02-24 12:55:45,651 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] Started Etech7WorkflowApplication in 1.604 seconds (JVM running for 2.195)
+2023-02-24 12:56:13,600 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 12:56:13,601 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-24 12:56:13,602 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 1 ms
+2023-02-24 12:56:13,726 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-1] requestId 447fdec4-827f-4f0d-a9e7-0f450fbc029c, ip 0:0:0:0:0:0:0:1, send a message : Softmax Regression is one sentence
+2023-02-24 12:56:13,731 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Softmax Regression is one sentence, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-24 12:56:15,096 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-1] response: <200,ChatResponse(id=cmpl-6nWakUjhi2smSdplxohZhslKbQCN1, object=text_completion, created=+4594155-09-02, model=text-davinci-003, choices=[Choice(text=
+
+Softmax Regression is a type of generalized linear model used for multiclass classification problems., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=7, completionTokens=20, totalTokens=27)),[Date:"Fri, 24 Feb 2023 17:56:15 GMT", Content-Type:"application/json", Content-Length:"366", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"1063", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"d3d59637741df37ecfd5a652313b1f84"]>
+2023-02-24 12:56:15,328 INFO com.chatGpt.service.SlackService [http-nio-8000-exec-1] code -> 200
+2023-02-24 12:56:15,330 INFO com.chatGpt.service.SlackService [http-nio-8000-exec-1] body -> ok
+2023-02-24 12:56:15,331 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-1] Response--> requestId 447fdec4-827f-4f0d-a9e7-0f450fbc029c, ip 0:0:0:0:0:0:0:1, response : 
+
+Softmax Regression is a type of generalized linear model used for multiclass classification problems.
+2023-02-24 12:57:36,960 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-3] requestId 9b0559b4-ede1-4496-a2e4-086e6d7d15bf, ip 0:0:0:0:0:0:0:1, send a message : write an emai to TIM and thank him for his present
+2023-02-24 12:57:36,961 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-3] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=write an emai to TIM and thank him for his present, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-24 12:57:41,173 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-3] response: <200,ChatResponse(id=cmpl-6nWc5PUfK3Ifw6eXLoDSlypaj5yl7, object=text_completion, created=+4594155-11-24, model=text-davinci-003, choices=[Choice(text=
+
+Dear TIM,
+
+I just wanted to take a moment to thank you for the wonderful present you gave me. It was so thoughtful of you to think of me and I really appreciate it.
+
+I'm so lucky to have a friend like you who is always so generous and kind. I'm looking forward to using the present and I'm sure it will come in handy.
+
+Thanks again for your thoughtfulness.
+
+Sincerely,
+[Your Name], index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=12, completionTokens=98, totalTokens=110)),[Date:"Fri, 24 Feb 2023 17:57:41 GMT", Content-Type:"application/json", Content-Length:"656", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"3979", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"9d6ea0dfd9eb3e1abb9310f88f212f38"]>
+2023-02-24 12:57:41,249 INFO com.chatGpt.service.SlackService [http-nio-8000-exec-3] code -> 200
+2023-02-24 12:57:41,250 INFO com.chatGpt.service.SlackService [http-nio-8000-exec-3] body -> ok
+2023-02-24 12:57:41,251 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-3] Response--> requestId 9b0559b4-ede1-4496-a2e4-086e6d7d15bf, ip 0:0:0:0:0:0:0:1, response : 
+
+Dear TIM,
+
+I just wanted to take a moment to thank you for the wonderful present you gave me. It was so thoughtful of you to think of me and I really appreciate it.
+
+I'm so lucky to have a friend like you who is always so generous and kind. I'm looking forward to using the present and I'm sure it will come in handy.
+
+Thanks again for your thoughtfulness.
+
+Sincerely,
+[Your Name]
+2023-02-24 13:39:19,185 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(46)-127.0.0.1] Application shutdown requested.
+2023-02-24 15:51:17,982 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] Starting Etech7WorkflowApplication using Java 17.0.3 on GOGIA with PID 37616 (C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-workflow\target\classes started by adity in C:\Users\adity\Documents\workspace-spring-tool-suite-4-4.15.2.RELEASE\etech7-workflow)
+2023-02-24 15:51:17,995 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-02-24 15:51:18,026 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24 15:51:18,027 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24 15:51:18,696 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2023-02-24 15:51:18,705 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-02-24 15:51:18,706 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-24 15:51:18,770 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-02-24 15:51:18,771 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 744 ms
+2023-02-24 15:51:18,975 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page: class path resource [static/index.html]
+2023-02-24 15:51:19,075 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-02-24 15:51:19,103 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2023-02-24 15:51:19,110 INFO com.chatGpt.Etech7WorkflowApplication [restartedMain] Started Etech7WorkflowApplication in 1.623 seconds (JVM running for 2.196)
+2023-02-24 15:51:58,494 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24 15:51:58,496 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-02-24 15:51:58,497 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 1 ms
+2023-02-24 15:51:58,682 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-1] requestId a04fdb14-a6fc-420b-a29f-37e7eebc8670, ip 0:0:0:0:0:0:0:1, send a message : Write a paragraph on Usage of Pen
+2023-02-24 15:51:58,687 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-1] request url: https://api.openai.com/v1/completions, httpEntity: <ChatRequest(model=text-davinci-003, prompt=Write a paragraph on Usage of Pen, maxTokens=1000, temperature=0.0, topP=1.0),[Content-Type:"application/json;charset=UTF-8", Authorization:"Bearer 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"]>
+2023-02-24 15:52:03,801 INFO com.chatGpt.service.DefaultChatgptService [http-nio-8000-exec-1] response: <200,ChatResponse(id=cmpl-6nZKp9mKdVB1b3YjFwKTUWEDElO8Q, object=text_completion, created=+4594184-07-16, model=text-davinci-003, choices=[Choice(text=
+
+The pen is one of the most important tools used in everyday life. It is used for writing, drawing, and signing documents. Pens are used in schools, offices, and homes for writing, taking notes, and completing assignments. Pens are also used for signing documents, such as contracts, checks, and other legal documents. Pens are also used for drawing and sketching, which can be used for artistic purposes or for technical drawings. Pens are also used for writing letters, making lists, and taking notes. Pens are an essential tool for communication and expression., index=0, logprobs=null, finishReason=stop)], usage=Usage(promptTokens=7, completionTokens=114, totalTokens=121)),[Date:"Fri, 24 Feb 2023 20:52:04 GMT", Content-Type:"application/json", Content-Length:"830", Connection:"keep-alive", Access-Control-Allow-Origin:"*", Cache-Control:"no-cache, must-revalidate", Openai-Model:"text-davinci-003", Openai-Organization:"user-xbngof7ex9kgc20aeaxs8tdl", Openai-Processing-Ms:"4763", Openai-Version:"2020-10-01", Strict-Transport-Security:"max-age=15724800; includeSubDomains", X-Request-Id:"e7218e4b40faded401d7cb9779adcc10"]>
+2023-02-24 15:52:04,023 INFO com.chatGpt.service.SlackService [http-nio-8000-exec-1] code -> 200
+2023-02-24 15:52:04,025 INFO com.chatGpt.service.SlackService [http-nio-8000-exec-1] body -> ok
+2023-02-24 15:52:04,026 INFO com.chatGpt.controller.GptController [http-nio-8000-exec-1] Response--> requestId a04fdb14-a6fc-420b-a29f-37e7eebc8670, ip 0:0:0:0:0:0:0:1, response : 
+
+The pen is one of the most important tools used in everyday life. It is used for writing, drawing, and signing documents. Pens are used in schools, offices, and homes for writing, taking notes, and completing assignments. Pens are also used for signing documents, such as contracts, checks, and other legal documents. Pens are also used for drawing and sketching, which can be used for artistic purposes or for technical drawings. Pens are also used for writing letters, making lists, and taking notes. Pens are an essential tool for communication and expression.
+2023-02-24 15:53:02,820 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
